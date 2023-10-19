@@ -1,1 +1,2 @@
-# Repository for storing practice code
+# Practice Repo
+### This repository stores tutorial codes for various technologies I am working on
