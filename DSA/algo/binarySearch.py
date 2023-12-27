@@ -1,5 +1,3 @@
-from jovian.pythondsa import evaluate_test_case
-
 def binarySearch(arr, key):
 	s, e = 0, len(arr) - 1
 	while(s <= e):
@@ -28,7 +26,7 @@ test2 = {
 	"output": 0
 }
 
-#Item not presenst
+#Item not present
 test3 = {
 	"input": {
 		"arr": [2,10,58,231,321,556,5377],
@@ -36,7 +34,3 @@ test3 = {
     },
 	"output": -1
 }
-
-tests = [variable for variable in ["test1", "test2", "test3"]]
-
-evaluate_test_case(binarySearch, test2)
